@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #f2f5f7;
+}
+
+.container
+{
+    width: 50%;
+    margin: auto;
+    height: 100vh;
+  
+}
+
+.adicionando
+{
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+}
+
+button
+{
+    cursor: pointer;
+}
+
+.adicionando input
+{
+    overflow: visible;
+    padding: 12px;
+    width: 90%;
+    border: none;
+    user-select: none;
+}
+
+.conteudo{
+    position: relative;
+    overflow: auto;
+    height: 400px;
+    flex-direction: column;
+    padding: 50px 20px;
+    display: flex;
+    width: 100%;
+    justify-content: start;
+}
+
+.container-item{
+    width: 100%;
+    background-color: rebeccapurple;
+}
+
+.radio{
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+.desaparece
+{
+    background-color: rebeccapurple;
+    width: 94%;
+    margin: auto;
+    display: none;
+}
+
+.remover{
+    position: absolute;
+    right: 50px;
+    background-color: rgb(136, 14, 14);
+    color: #f2f5f7;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.remover:hover{
+    background-color: rgb(87, 10, 10);
+}
+
+
+form
+{
+    display: flex;
+    background-color: #156135;
+    text-align: center;
+    border: 2px solid #156135 ;
+    width: 80%;
+}
+
+.adicionando button
+{
+    margin-left: 1px;
+    overflow: visible;
+    padding: 10px;
+    width: 10vh;
+   
+    border: none;
+    background-color: #27ae60;
+    color: #f2f5f7;
+    font-size: 1.3em;
+}
+
+.adicionando button:hover
+{
+    background-color: #22864c;
+}
+
