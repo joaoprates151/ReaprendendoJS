@@ -9,7 +9,6 @@ let div = document.querySelector(".conteudo")
 
 let desaparece = document.querySelector(".desaparece")
 
-let itens = new Array();
 
 const formulario = document.getElementById('meuFormulario');
 
@@ -35,10 +34,6 @@ function disparar(){
 function apagarComponente(botao){
     const linha = botao.parentElement;
     linha.remove()
-}
-
-function teste(c){
-    console.log("teste")
 }
 
 
