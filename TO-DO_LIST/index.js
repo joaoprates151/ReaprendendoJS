@@ -1,5 +1,3 @@
-let contador = 0;
-var apagar = "";
 let botao = document.querySelector("button")
 botao.addEventListener("click", clicou)
 
