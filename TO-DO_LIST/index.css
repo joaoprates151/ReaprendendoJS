@@ -116,3 +116,9 @@ form
     background-color: #22864c;
 }
 
+@media screen and (max-width: 500px)
+{
+    .container{
+        width: 100%;
+    }
+}
