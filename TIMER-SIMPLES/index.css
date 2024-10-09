@@ -1,0 +1,64 @@
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFFF0;
+}
+
+.conteudo{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.contagem
+{
+    font-size: 6.5em;
+    margin-bottom: 10px;
+}
+
+.timer
+{
+    background-color: rgb(37, 163, 37);
+    color: white;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.regressivo
+{
+    margin-top: 15px;
+    width: 100%;
+}
+
+.regressivo p{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#calendario{
+    padding: 5px;
+    width: 30%;
+    font-size: 1.1em;
+}
+
+.regressiva{
+    background-color: rgb(37, 163, 37);
+    color: white;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
