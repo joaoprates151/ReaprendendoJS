@@ -63,7 +63,7 @@ function calcularHoras()
     let calculoHoras = 0;
      timerHoras = setInterval(function() {
         calculoHoras++;
-        
+
         const horas = Math.floor(calculoHoras / 3600);
         horasBody.innerText = horas;
         
@@ -106,9 +106,7 @@ function acionar(){
             acionando.style.backgroundColor = "rgb(37, 163, 37)"
             texto = "Iniciar Timer";
             parar()
-    }
-    
-    
+    }  
 }
 
     

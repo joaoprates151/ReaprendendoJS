@@ -39,6 +39,11 @@ function clicou() {
     if(conteudo.value !== ""){
         let item = document.createElement("p");
         item.style.fontSize = "1.3em";
+        item.style.borderRadius = "10px";
+        item.style.padding = "50px 20px 10px 20px";
+        item.style.marginBottom= "15px";
+        item.style.verticalAlign= "middle";
+        item.style.boxShadow = "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset";
         item.innerHTML = `<input type="checkbox" class="radio" name="${conteudo.value.split(' ').join('')} onclick="teste()"">${conteudo.value.toUpperCase()} <button class="remover" onclick = "apagarComponente(this)"> X </button>`;
         div.insertBefore(item, div.firstChild); 
         conteudo.value = ""
